@@ -1,0 +1,1 @@
+python -m celery -A pss_recognition beat -l INFO --scheduler django_celery_beat.schedulers:DatabaseScheduler
